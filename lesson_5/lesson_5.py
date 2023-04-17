@@ -17,10 +17,10 @@
 
 
 
-# from termcolor import colored, cprint
+from termcolor import colored, cprint
 
-# cprint('Hello', color='red', on_color="on_blue", 
-#        attrs=["bold", "underline"])
+cprint('Hello', color='red', on_color="on_blue", 
+       attrs=["bold", "underline"])
 
 from decouple import config
 

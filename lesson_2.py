@@ -5,10 +5,10 @@ class Address:
         self.__home_number = home_number
 
     @property
-    def city(self):
-        return self.__city
+    def cit(self):
+        return self.__cit
 
-    @city.setter
+    @cit.setter
     def city(self, value):
         if type(value) == str:
             self.__city = value
