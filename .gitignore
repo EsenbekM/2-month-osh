@@ -1,0 +1,5 @@
+.idea
+.vscode
+lesson_5/__pycache__
+lesson_5/venv
+lesson_5/.env
