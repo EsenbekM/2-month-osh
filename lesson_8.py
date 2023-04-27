@@ -22,7 +22,7 @@ def create_student(conn, student: tuple):
     cursor = conn.cursor()
     cursor.execute(sql, student)
     connection.commit()
-
+1)
 
 def select_all_students(conn):
     sql = '''SELECT * FROM students WHERE is_married;'''
